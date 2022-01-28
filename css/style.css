@@ -7,14 +7,15 @@ body{
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 .conteiner{
   max-width: 1200px;
-  margin: auto;
+  margin: 0px auto;
   overflow:hidden;
 }
 .top-menu {
   background: #fff;
   position: fixed;
-  width: 100%;
+  width: 1200px;
   padding: 20px;
+  display: inline-block;
 }
 .padding-top{
   padding-top: 150px;
@@ -160,4 +161,7 @@ input[type=submit]:hover {
   color: #fff;
   text-decoration: none;
   padding-top: 20px;
+}
+.img_down{
+  text-align: center;
 }
